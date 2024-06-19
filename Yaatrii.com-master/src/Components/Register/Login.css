@@ -1,0 +1,37 @@
+/* Login.css */
+
+.containerrr {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .input-containerrr {
+    margin-bottom: 20px;
+  }
+  
+  .input-containerrr input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-containerrr button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-containerrr button:hover {
+    background-color: #0056b3;
+  }
+  

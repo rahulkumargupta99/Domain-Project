@@ -1,0 +1,25 @@
+/* SupportSection.css */
+.support-section {
+    max-width: auto;
+    margin: 80 auto;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #753333;
+    margin-bottom: 20px;
+}
+
+.support-content {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.section-title{
+
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: 8px solid #ccc;
+}

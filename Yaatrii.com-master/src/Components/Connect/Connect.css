@@ -1,0 +1,256 @@
+.yatriconnect{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1200px;
+    background-image: linear-gradient(to right, #232120, #8d6245);
+    position: relative;
+  }
+   .yatriconnect-headings{
+    display: flex;
+    justify-content: center;
+    font-size: 95px;
+    color: #d1a2a2;
+    margin-top: 50px;
+    position: relative;
+    transition: font-size 0.3s ease ,opacity 0.3s ease;
+    cursor: pointer;
+    opacity: 1;
+    
+  }
+  .yatriconnect-headings:hover{
+    color: #39353a;
+  }
+  .yatriconnect-headings:hover::after {
+    content: "WELCOME";
+    opacity: 1; /* Make the "Show" text fully visible on hover */
+}
+  .yaatriconnectboxs{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    gap: 45px;
+  }
+  .yaatriconnectbox{
+    position: relative;
+    height: 310px;
+    width: 440px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4c4141 , #a36363) ;
+  }
+  
+  #yaatriconnectbox1{
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center;
+  transition: opacity 0.3s;
+  transition: transform 0.3s ease;
+ }
+ #yaatriconnectbox1:hover{
+  background-image: url('../Assets/feedback.jpg');
+  background-size: cover;
+  transform: scale(1.1);
+  cursor: pointer;
+ }
+.yaatriconnectbox-text:hover{
+  color: #874141;
+ 
+ }
+
+ .yaatriconnectbox-feedback{
+    margin-left: 41px;
+    color: #c4354d;
+    margin-top: -120px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+ }
+ .yaatriconnectbox-feedback:hover{
+  color: tomato;
+  transform: scale(1.2);
+ }
+ .yaatriconnectbox-content{
+  margin-top: 162px;
+  position: absolute;
+ }
+ .yaatriconnectbox-text{
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 40px;
+  font-size: 12px;
+    
+ }
+ .yaatriconnectbox-button{
+  margin-left: 40px;
+  margin-top: 90px;
+  cursor: pointer;
+  border: 2px solid #e39090 ;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 15px;
+  background-color: #d1a2a2;
+  color: #252222;
+  transition: transform 0.3s ease;
+  
+}
+.yaatriconnectbox-button:hover{
+  background-color: #e39090;
+  color: #0c0c0c;
+  transform: scale(1.1);
+  
+}
+
+ #yaatriconnectbox2{
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center;
+  transition: opacity 0.3s;
+  transition: transform 0.3s ease;
+}
+#yaatriconnectbox2:hover{
+  background-image: url('../Assets/servicess.jpg');
+  background-size: cover;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#yaatriconnectbox3{
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center;
+  transition: opacity 0.3s;
+  transition: transform 0.3s ease;
+ }
+ #yaatriconnectbox3:hover{
+  background-image: url('../Assets/rewards.jpg');
+  background-size: cover;
+  transform: scale(1.1);
+  cursor: pointer;
+ }
+
+ .troubleshoot{
+  
+  position: absolute;
+  height:500px;
+  width: 97%;
+  border-radius: 16px;
+  top: 650px;
+  background-image: linear-gradient(to left, #4c4141 , #a36363) ;
+ }
+ .troubleshoot-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 29px;
+  gap: 27px;
+ }
+ .troubleshoot-text h1{
+  
+   font-size: 40px;
+   margin-top: 20px;
+   color: rgb(218, 211, 211);
+ }
+ .troubleshoot-text span{
+  font-size: 50px;
+   color: rgb(84, 44, 56);
+ }
+ .troubleshoot-text p{
+  font-size: 12pxpx;
+   color: rgb(14, 14, 14);
+ }
+ .videos-container{
+  position: relative;
+    height: 310px;
+    width: 440px;
+    bottom: 336px;
+    left: 872px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3e3e3e , #adf4b3) ;
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center;
+    transition: opacity 0.3s;
+    transition: transform 0.3s ease;
+ }
+ .videos-container:hover{
+  background-image: url('../Assets/feedback.jpg');
+  background-size: cover;
+  transform: scale(1.1);
+  cursor: pointer;
+ }
+ .videos
+ 
+ .videos-text:hover{
+  color: #fafafa;
+ 
+ }
+
+ .videos-heading{
+    margin-left: 81px;
+    color: #c4354d;
+    margin-top: -120px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+ }
+ .videos-heading:hover{
+  color: tomato;
+  transform: scale(1.2);
+ }
+ .videos{
+  margin-top: 162px;
+  position: absolute;
+ }
+ .videos-text{
+  position: absolute;
+  margin-top:0px;
+  color: #0c0c0c;
+  margin-left: 110px;
+  font-size: 12px;
+    
+ }
+ .videos-button{
+  margin-left: 175px;
+  margin-top: 90px;
+  cursor: pointer;
+  border: 2px solid #e39090 ;
+  border-radius: 6px;
+  padding: 6px;
+  font-size: 15px;
+  background-color: #d1a2a2;
+  color: #252222;
+  transition: transform 0.3s ease;
+  
+}
+.videos-button:hover{
+  background-color: #e39090;
+  color: #0c0c0c;
+  transform: scale(1.1);
+  
+}
+ 
+
+
+
+
+ 
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .yatriconnect {
+    height: auto;
+    padding: 50px 0;
+  }
+  .yatriconnect-headings {
+    font-size: 60px;
+  }
+  .yaatriconnectboxs {
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .yaatriconnectbox {
+    margin-bottom: 50px;
+    width: 80%; /* Adjust width for smaller screens */
+  }
+  .yaatriconnectbox-content {
+    margin-top: 50px;
+  }
+  .yaatriconnectbox-button {
+    margin-top: 50px;
+  }
+}

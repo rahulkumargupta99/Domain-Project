@@ -1,0 +1,107 @@
+.navbar {
+  background-color: #d1a2a2; /* Navbar background color */
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Adjust the gap between nav items */
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff; /* Nav link color */
+  text-decoration: none;
+  padding: 10px 15px; /* Adjust padding for spacing */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.nav-link:hover {
+  background-color: #b28282; /* Background color on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items vertically on smaller screens */
+  }
+
+  .nav-item {
+    margin-right: 0; /* Remove right margin for stacked nav items */
+    margin-bottom: 10px; /* Add bottom margin for spacing between stacked nav items */
+  }
+}
+  .mobmenuies {
+    position: relative;
+    left: 250px;
+  }
+  .mobmenuies img {
+    margin-left: 287px;
+    height: 30px;
+    width: 40px;
+  }
+  .mobMenu {
+    cursor: pointer;
+  }
+  
+  .navMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: #9f7e7e; /* Background color of the menu */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 173px; 
+    cursor: pointer;/* Box shadow */
+  }
+  
+  .listItem {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Text color */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .listItem:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column; /* Stack items vertically */
+      gap: 10px; /* Reduce gap between items */
+    }
+  
+    .nav-item {
+      margin-right: 0; /* Remove right margin */
+    }
+  
+    .mobMenu {
+      display: block; /* Show menu icon */
+    }
+  
+    .navMenu {
+      position: absolute;
+      top: 100%; /* Place menu below the navbar */
+      right: 0;
+      display: none /* Show menu when toggled */
+      /* Other styles as needed */
+    }
+    .navMenu.show {
+        display: flex; /* Show menu when the 'show' class is applied */
+      }
+  }
+
+  

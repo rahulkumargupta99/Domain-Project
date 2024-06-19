@@ -1,0 +1,447 @@
+.package{
+    font-size:95px;
+    display: flex;
+    color: #460e17;
+    justify-content: center;
+    transition: font-size 0.3s ease, opacity 0.3s ease; /* Add transition effect for font-size and opacity */
+    cursor: pointer; /* Add cursor effect */
+    opacity: 1;
+  }
+  
+  .package-info {
+    display: block; /* Ensure the span behaves like a block element */
+    font-size: 16px; /* Set the font size */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #39353a; /* Set the text color */
+    margin-bottom: 20px; 
+    padding-left: 50px;
+    padding-right: 30px;/* Add bottom margin for spacing */
+  }
+  
+  /* Example styles for links within the span */
+  .package-info a {
+    color: #007bff; /* Set link color */
+    text-decoration: underline; /* Add underline to links */
+  }
+  
+  .package-info a:hover {
+    color: #0056b3; /* Change link color on hover */
+  }
+  
+  .packages{
+    width: 100%;
+    height: 1200px;
+    background-color: #d1a2a2;
+    margin-top: -32px;
+    padding-top: 58px;
+  }
+  .packagedisplay{
+    display: flex;
+    gap: 45px;
+    height: 350px;
+    width: 90%;
+    align-items: center;
+    background-color: rgb(205, 199, 204);
+    margin-left: 70px;
+    border-radius: 16px;
+
+
+}
+.packagedisplay-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 49, 49);
+    
+}
+.packagedisplay-texts h2{
+    font-size: 20px;
+    margin-top: -250px;
+    margin-left: 10px;
+}
+.packagedisplay-texts h3{
+   font-size: 25px;
+   margin-top: -150px;
+    margin-left: -135px;
+    
+}
+.packagesiplays-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+.packagedisplay-view{
+    position: relative;
+    width: 150px;
+    height: 220px;
+    background: rgb(32, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    overflow:hidden;
+    
+    
+
+   
+    
+}
+
+  .packagedisplay-view h4{
+  position: absolute;
+  bottom: -8px; /* Align the text at the bottom */
+  width: 100%;
+  left: 2px;
+  font-size: 12px;
+  padding: 10px; 
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+  
+  }
+  #view1 :hover{
+    opacity: 1;
+  }
+  #view1 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view1:hover > *{
+    transform: translateY(0px);
+  }
+  #view2 :hover{
+    opacity: 1;
+  }
+  #view2 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view2:hover > *{
+    transform: translateY(0px);
+  }
+  #view3 :hover{
+    opacity: 1;
+  }
+  #view3 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view3:hover > *{
+    transform: translateY(0px);
+  }
+  #view4 :hover{
+    opacity: 1;
+  }
+  #view4 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view4:hover > *{
+    transform: translateY(0px);
+  }
+  #view5 :hover{
+    opacity: 1;
+  }
+  #view5 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view5:hover > *{
+    transform: translateY(0px);
+  }
+  #view6 :hover{
+    opacity: 1;
+  }
+  #view6 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #view6:hover > *{
+    transform: translateY(0px);
+  }
+
+  #view1 {
+    position: relative;
+    background-image: url('../Assets/pg1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1); /* Add transition for smooth opacity change */
+   
+   
+  }
+#view2{
+    background-image:url(../Assets/pg2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+   
+}
+#view3{
+    background-image:url(../Assets/pg3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+   
+}
+#view4{
+    background-image:url(../Assets/pg4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+#view5{
+    background-image:url(../Assets/pg5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+#view6{
+    background-image:url(../Assets/pg6.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+
+.guidedisplay{
+    display: flex;
+    
+    gap: 45px;
+    height: 350px;
+    width: 90%;
+    align-items: center;
+    background-color: rgb(191, 201, 195);
+    margin-left: 70px;
+    margin-top: 107px;
+    border-radius: 16px;
+
+
+}
+.guidedisplay-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 49, 49);
+}
+.guidedisplay-texts h2{
+    font-size: 20px;
+    margin-top: -250px;
+    margin-left: 10px;
+}
+.guidedisplay-texts h3{
+   font-size: 25px;
+   margin-top: -150px;
+    margin-left: -135px;
+    
+}
+.guidesiplays-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+.guidedisplay-view{
+    position: relative;
+    width: 150px;
+    height: 220px;
+    background: rgb(32, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 19px;
+    overflow:hidden;
+    
+
+   
+    
+}
+
+  .guidedisplay-view h4{
+  position: absolute;
+  bottom: -8px; /* Align the text at the bottom */
+  width: 100%;
+  left: 2px;
+  font-size: 12px;
+  padding: 10px; 
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.6s;
+  
+  }
+  #guide1 :hover{
+    opacity: 1;
+  }
+  #guide1 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide1:hover > *{
+    transform: translateY(0px);
+  }
+  #guide2 :hover{
+    opacity: 1;
+  }
+  #guide2 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide2:hover > *{
+    transform: translateY(0px);
+  }
+  #guide3 :hover{
+    opacity: 1;
+  }
+  #guide3 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide3:hover > *{
+    transform: translateY(0px);
+  }
+  #guide4 :hover{
+    opacity: 1;
+  }
+  #guide4 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide4:hover > *{
+    transform: translateY(0px);
+  }
+  #guide5 :hover{
+    opacity: 1;
+  }
+  #guide5 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide5:hover > *{
+    transform: translateY(0px);
+  }
+  #guide6 :hover{
+    opacity: 1;
+  }
+  #guide6 > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+  }
+  #guide6:hover > *{
+    transform: translateY(0px);
+  }
+
+  #guide1 {
+    position: relative;
+    background-image: url('../Assets/lg1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1); /* Add transition for smooth opacity change */
+   
+   
+  }
+#guide2{
+    background-image:url(../Assets/lg2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+   
+}
+#guide3{
+    background-image:url(../Assets/lg3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+   
+}
+#guide4{
+    background-image:url(../Assets/lg4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+#guide5{
+    background-image:url(../Assets/lg5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+#guide6{
+    background-image:url(../Assets/lg6.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+    
+}
+#hire {
+    position: absolute;
+    top: 105px; /* Adjust as needed */
+    left: 25%;
+    transform: translateZ(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 108px;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 9;
+   transition: 0.6s;
+   
+  }
+  
+  #hire:hover {
+    opacity: 1;
+    background-color: #0056b3;
+  }
+  

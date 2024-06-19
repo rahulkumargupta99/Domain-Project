@@ -1,0 +1,46 @@
+/* App.css */
+
+.containersr {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .input-containersr {
+    margin-bottom: 20px;
+  }
+  
+  .input-containersr input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .input-containersr button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-containersr button:hover {
+    background-color: #0056b3;
+  }
+  /* #register-btn{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 6px;
+    color: #c98538;
+    cursor: pointer;
+  }
+   */

@@ -1,0 +1,26 @@
+/* CustomerSupportNavbar.css */
+.customer-support-navbar {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.customer-support-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.customer-support-navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.customer-support-navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.customer-support-navbar li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+/* App.css */
+
+.containerre {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right , #ae8989 , #bc5f5f);
+  }
+  
+  .input-containerre {
+    margin-bottom: 20px;
+  }
+  
+  .input-containerre input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-containerre button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-containerre button:hover {
+    background-color: #0056b3;
+  }
+  

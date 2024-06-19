@@ -1,0 +1,138 @@
+.container {
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container-para {
+    color: #d1a2a2; 
+    display: inline-block;
+    padding: 50px;
+    font-size: 3rem;  
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    letter-spacing: 5px;
+
+
+  }
+  @media (max-width: 768px) {
+    .container-para {
+      padding: 30px; /* Reduce padding for smaller screens */
+      font-size: 2rem; /* Decrease font size for smaller screens */
+      letter-spacing: 3px; /* Decrease letter spacing for smaller screens */
+    }
+  }
+  .container-text{
+    color: rgb(215, 22, 118); 
+    margin-top: 65px;
+    margin-left: 90px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .container-text span{
+    color: rgb(11, 11, 11);
+    align-items: first baseline;
+  }
+  /*box*/
+  .containers-boxs {
+  display: flex; /* Use flexbox */
+  justify-content: center;
+  gap: 45px; 
+   /* Center the items horizontally */
+}
+
+  .video-link {
+    /* Style the video link button */
+    margin-top: 10px; /* Add some space between the image and the button */
+    padding: 4px 8px; /* Add padding */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove default underline */
+    border-radius: 45px;
+    font-size: 7px; 
+    cursor: pointer;/* Add border radius */
+  }
+  .video-link:hover {
+    background-color: #00b30c; /* Change background color on hover */
+  }
+  .containers-box {
+    position: relative;
+    width: 120px;
+    height: 220px;
+    background: rgb(32, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+     /* Add transition for smooth opacity change */
+    
+  }
+  .containers-box:hover{
+    transform: scale(1.1);
+  }
+
+  #box1 {
+    background-image:url(../Assets/pg1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  /* #box1:hover{
+    filter: blur(2px);
+  } */
+   
+  #box2{
+    background-image:url(../Assets/pg2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box3 {
+    background-image:url(../Assets/pg3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box4 {
+    background-image:url(../Assets/pg4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+  #box5  {
+    background-image:url(../Assets/pg5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 220px;
+  }
+
+  
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      min-height: 400px;
+      background-position: top center;
+    }
+    .container-para {
+      font-size: 2em;
+      line-height: 1.8;
+      text-align: justify;
+    }
+  }
